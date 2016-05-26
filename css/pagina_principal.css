@@ -1,0 +1,94 @@
+/********** Página Principal *************/
+/* Imagen  Slider */
+.imagen-slider
+{  	
+    background: url('../img/slide_1_1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 600px; 
+    opacity: 0.5;           
+}
+.contenedor-imagen-slider
+{
+	background: rgb(0, 0, 0); 
+}
+/* Materias superpuesto en imagen slider */
+.superponer
+{
+	position: absolute;
+	width: 100%;
+	padding-top: 30px;
+}
+.parrafo-1-superponer
+{
+	font-size: 50px;
+	font-weight: 300;	
+}
+.parrafo-2-superponer
+{
+	font-size: 18px;
+	font-weight: 500;
+}
+.contenedor-area
+{
+	min-height: 120px; 
+	padding: 25px;
+	cursor: pointer;	
+}
+.area
+{
+	background: rgba(165, 145, 143, 0.7);	
+	color:#DDD;
+	font-size: 20px;
+	min-height: 100px;	
+	text-align: center;
+	padding: 20px;
+	border-radius: 5px;
+}
+.area:hover
+{
+	background: rgba(165, 145, 143, 1);
+	color: #FFF;		
+}
+.icono-area
+{
+	/*border: 2px solid #DDD;*/
+    padding: 7px;
+    /*border-radius: 10px;*/
+    font-size: 50px!important;	
+    margin-bottom: 5px;
+}
+
+/* Media Query's */
+
+/*XS*/
+@media (max-width: 767px) 
+{
+	.imagen-slider
+	{
+		min-height: 1500px;
+	}
+	.parrafo-1-superponer
+	{
+		font-size: 42px;
+	}
+
+	.parrafo-2-superponer
+	{
+		font-size: 16px;
+	}
+{  		
+}
+/*SM*/
+@media (min-width: 768px)
+{ 
+}
+/*MD*/
+@media (min-width: 992px) 
+{
+}
+/*LG*/
+@media (min-width: 1200px)
+{	
+}

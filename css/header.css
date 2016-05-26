@@ -1,0 +1,61 @@
+/********** Header *************/
+/*Iconos Social*/
+.social
+{
+    margin-top: 5px;
+}
+.iconos-social
+{     
+    padding: 7px 10px;
+    float:  left;
+}
+.link-iconos-social
+{     
+    font-size: 18px;
+}
+.btn
+{
+    border: 1px solid #FFF;
+    border-radius: 0;
+}
+.btn:hover
+{
+    /*border: 1px solid #FF9625;*/
+    /*background-color: #84574D;*/
+    background-color: #73463C; 
+}
+/* Barra de Navegación */
+.barra-navegacion
+{
+    min-height: 80px;
+    width:  auto;
+    border-radius: 0;
+    background-color: #FFF;
+    margin: 0;
+}
+.imagen-barra-navegacion
+{
+    max-height: 50px; 
+    width: auto;   
+}
+.item-menu-sup
+{
+    color: #51241A!important;
+    font-weight: 700;
+}
+
+.menu-comprimido
+{
+    margin-top: 20px;
+    margin-left: 250px;
+} 
+/* Media Query's */
+/*XS*/
+@media (max-width: 767px) 
+{
+    .menu-comprimido
+    {
+        margin-top: 30px;
+        margin-left: 0;
+    }  
+}
